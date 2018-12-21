@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/login_button_normal" />
+            <stroke android:width="@dimen/two_dp" android:color="@color/login_button_normal" />
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:radius="@dimen/five_dp" />
+        </shape>
+    </item>
+</selector>

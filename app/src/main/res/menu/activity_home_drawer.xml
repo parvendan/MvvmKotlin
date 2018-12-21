@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_divider"
+        android:checkableBehavior="single">
+        <item android:title="Mani manu">
+            <menu>
+                <item
+                    android:id="@+id/create_bag"
+                    android:icon="@drawable/create_trip"
+                    android:title="@string/menu_one" />
+                <item
+                    android:id="@+id/out_scan"
+                    android:icon="@drawable/scan_bag_out"
+                    android:title="@string/menu_two" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="Sub menu">
+        <menu>
+            <item
+                android:id="@+id/in_scan"
+                android:icon="@drawable/scan_bag"
+                android:title="@string/menu_three" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/change_password"
+                android:icon="@drawable/password"
+                android:title="@string/menu_change_password" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

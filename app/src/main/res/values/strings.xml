@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mvvm</string>
+    <string name="title_activity_login">Login</string>
+    <string name="email_id">Email id</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_one">Menu 1</string>
+    <string name="menu_two">Menu 2</string>
+    <string name="menu_three">Menu 3</string>
+    <string name="menu_change_password">Change password</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
