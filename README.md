@@ -1,4 +1,4 @@
-# MvvmKotlin
+# Mvvm design pattern in Kotlin with retrofit integratoin
 Integrated retrofit in kotlin with MVVM design pattern
 jetpack components 
    i ) ViewModel
