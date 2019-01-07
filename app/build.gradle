@@ -46,7 +46,12 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:3.12.0"
 
     //dialog from jetbrans
+    //dialog from jetbrans
+    compile "org.jetbrains.anko:anko-commons:$anko_version"
+    compile "org.jetbrains.anko:anko-design:$anko_version"
 
-    implementation 'org.jetbrains.anko:anko-common:0.9'
+    //for dependency injection
+    implementation 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.4'
 
 }

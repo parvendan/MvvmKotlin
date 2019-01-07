@@ -1,4 +1,4 @@
-package com.paru.mvvmKotlin
+package com.paru.mvvmKotlin.base
 
 import android.app.ProgressDialog
 import android.os.Bundle

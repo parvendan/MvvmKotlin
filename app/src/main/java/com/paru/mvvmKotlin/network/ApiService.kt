@@ -1,6 +1,7 @@
 package com.paru.mvvmKotlin.network
 
 import com.google.gson.GsonBuilder
+import com.paru.mvvmKotlin.network.response.LoginResponse
 import com.paru.mvvmkotlin.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -15,7 +16,7 @@ import retrofit2.http.POST
 interface ApiService {
 
     @POST("login")
-    fun login(@Body postParam: HashMap<String, String>): Call<JSONObject>
+    fun login(@Body postParam: HashMap<String, String>): Call<LoginResponse>
 
     companion object RetrofitClient {
         private const val BASE_URL = "http://point-to-your-server/example/paru/"

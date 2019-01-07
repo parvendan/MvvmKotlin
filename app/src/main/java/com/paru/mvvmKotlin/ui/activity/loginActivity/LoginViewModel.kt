@@ -3,14 +3,15 @@ package com.paru.mvvmKotlin.ui.activity.loginActivity
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.ViewModel
 import android.text.TextUtils
+import com.paru.mvvmKotlin.network.response.LoginResponse
 import org.json.JSONObject
 
 
 class LoginViewModel : ViewModel() {
 
-    fun requestLogin(postParam: HashMap<String, String>): LiveData<JSONObject> {
+    fun requestLogin(postParam: HashMap<String, String>): LiveData<LoginResponse> {
         val service = LoginModel()
-        val user: LiveData<JSONObject>
+        val user: LiveData<LoginResponse>
         user = service.login(postParam)
         return user
     }

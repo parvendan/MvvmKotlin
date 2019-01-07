@@ -9,8 +9,8 @@ import android.support.design.widget.NavigationView
 import android.support.v7.widget.Toolbar
 import android.view.View
 import android.widget.TextView
-import com.medlife.paru.ui.Activity.Fragment.FragmentCreateTrip
-import com.paru.mvvmKotlin.BaseActivity
+import com.paru.mvvmKotlin.base.BaseActivity
+import com.paru.mvvmKotlin.ui.Fragment.FragmentCreateTrip.FragmentCreateTrip
 import com.paru.mvvmKotlin.util.Constants
 import com.paru.mvvmKotlin.util.PreferenceHelper
 import com.paru.mvvmKotlin.util.replaceFragmenty
